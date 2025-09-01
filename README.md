@@ -45,7 +45,7 @@ python src/compute_endpoints.py --input data/examples/redacted_sample.csv --out 
 
 ## Release
 
-GitHub release: v0.0.3
+GitHub release: [v0.0.3] (https://github.com/magnitumlabs/womens-health-dao-endpoints/releases/tag/v0.0.2)
 
 Zenodo (Version DOI): 10.5281/zenodo.17028417
 
