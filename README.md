@@ -1,4 +1,5 @@
-# Women’s Health DAO – Digital Endpoints (v0.0.1)
+# Women’s Health DAO – Digital Endpoints (v0.0.2)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17024837.svg)](https://doi.org/10.5281/zenodo.17024837)
 
 Early, **device-agnostic** and **privacy-first** code + specs for analytically valid, interpretable digital endpoints from de‑identified wearable time‑series.
 
@@ -8,7 +9,7 @@ Early, **device-agnostic** and **privacy-first** code + specs for analytically v
 - `data/examples/redacted_sample.csv` (synthetic, de-identified)
 - `docs/Dataset_Card_v0.0.1.docx`
 - `docs/DMS_SOP_Short.md` (sharing plan snippet)
-- `CITATION.cff` (replace DOI after Zenodo minting)
+- `CITATION.cff`
 - `.zenodo.json` metadata (edit if needed before upload)
 
 ## Install
@@ -30,9 +31,6 @@ python src/compute_endpoints.py --input data/examples/redacted_sample.csv --out 
 - Versioned releases with DOIs via Zenodo (see `.zenodo.json`).
 - Redacted sample only; **no real data**.
 
-## License
-
-MIT — see `LICENSE`.
 
 ## Licensing
 
@@ -40,4 +38,5 @@ MIT — see `LICENSE`.
 - **Specifications & docs** (e.g., `spec/Endpoint_Spec_v0.0.1.docx`, files under `docs/`): **CC BY 4.0** (see `LICENSE_CC-BY-4.0.txt`).
 - **Redacted sample data** (`data/examples/`): **CC0 1.0** (see `LICENSE_CC0-1.0.txt`).
 
-When citing, please use `CITATION.cff` and update the DOI after Zenodo minting.
+**Citing:** Kvinto D. *Women’s Health DAO – Digital Endpoints.* v0.0.2. DOI: 10.5281/zenodo.17024837
+
