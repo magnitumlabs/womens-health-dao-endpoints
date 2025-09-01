@@ -9,8 +9,9 @@ Early, **device-agnostic** and **privacy-first** code + specs for analytically v
 - `data/examples/redacted_sample.csv` (synthetic, de-identified)
 - `docs/Dataset_Card_v0.0.1.docx`
 - `docs/DMS_SOP_Short.md` (sharing plan snippet)
-- `CITATION.cff`
-- `.zenodo.json` metadata (edit if needed before upload)
+- `CITATION.cff` (contains DOI `10.5281/zenodo.17024837`)
+- `.zenodo.json` metadata (used by Zenodo for future releases)
+
 
 ## Install
 
@@ -19,16 +20,21 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Quick start
 
-```bash
+**Quick start (Windows PowerShell, если хотите добавить):**
+```md
+<details>
+<summary>Windows (PowerShell)</summary>
+
+
+```powershell
+mkdir out -ErrorAction SilentlyContinue
 python src/compute_endpoints.py --input data/examples/redacted_sample.csv --out out/endpoints_demo.csv
-```
 
 ## Reproducibility
 
 - Deterministic transforms where possible; seed control via `--seed`.
-- Versioned releases with DOIs via Zenodo (see `.zenodo.json`).
+- Versioned releases with DOIs via Zenodo.
 - Redacted sample only; **no real data**.
 
 
