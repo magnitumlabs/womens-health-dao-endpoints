@@ -1,5 +1,5 @@
 {
-  "title": "Women’s Health DAO – Digital Endpoints (v0.0.2)",
+  "title": "Women’s Health DAO – Digital Endpoints (v0.0.3)",
   "upload_type": "software",
   "description": "Pre-release code + specs for analytically valid, interpretable digital endpoints from de-identified wearable data. Device-agnostic, privacy-first.",
   "creators": [
@@ -7,7 +7,7 @@
   ],
   "license": "MIT",
   "keywords": ["digital biomarkers", "women's health", "wearables", "time-series", "SBIR"],
-  "version": "0.0.3",
+  "version": "0.0.4",
   "related_identifiers": [
     {
       "identifier": "https://github.com/magnitumlabs/womens-health-dao-endpoints/tree/v0.0.2",
