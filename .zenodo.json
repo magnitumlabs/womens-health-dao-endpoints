@@ -1,18 +1,20 @@
 {
-  "title": "Women’s Health DAO – Digital Endpoints (v0.0.3)",
-  "upload_type": "software",
-  "description": "Pre-release code + specs for analytically valid, interpretable digital endpoints from de-identified wearable data. Device-agnostic, privacy-first.",
-  "creators": [
-    { "name": "Dmitry Kvinto", "affiliation": "Red Stars International, Inc." }
-  ],
-  "license": "MIT",
-  "keywords": ["digital biomarkers", "women's health", "wearables", "time-series", "SBIR"],
   "version": "0.0.4",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/magnitumlabs/womens-health-dao-endpoints/tree/v0.0.2",
+      "identifier": "https://github.com/magnitumlabs/womens-health-dao-endpoints/releases/tag/v0.0.4",
       "relation": "isSupplementTo",
       "resource_type": "software"
+    },
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.17041056",
+      "relation": "isDocumentedBy",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.17040538",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication"
     }
   ]
 }
