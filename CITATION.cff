@@ -6,6 +6,6 @@ authors:
     given-names: "Dmitry"
     affiliation: "Red Stars International, Inc."
 version: "0.0.4"
-date-released: "2025-09-01"
+date-released: "2025-09-02"
 doi: "10.5281/zenodo.17038304" # v0.0.4
 url: "https://github.com/<your-org>/womens-health-dao-endpoints"
