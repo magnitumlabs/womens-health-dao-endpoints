@@ -35,6 +35,8 @@ python src/compute_endpoints.py --input data/examples/redacted_sample.csv --out 
 - Deterministic transforms where possible; seed control via `--seed`.
 - Versioned releases with DOIs via Zenodo.
 - Redacted sample only; **no real data**.
+- Registered Evaluation Plan (OSF): https://doi.org/10.17605/OSF.IO/2HKET
+
 
 
 ## Licensing
